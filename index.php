@@ -53,23 +53,11 @@
             margin-top: 50px;
         }
     </style>
-    <script>
-        function autoDial() {
-            var phoneNumber = "+1(805) 538-7936";
-            window.location.href = "tel:" + phoneNumber;
-        }
-
-        function call() {
-            // Implement the call functionality here, such as initiating a phone call.
-            console.log("Calling...");
-        }
-    </script>
+  
 </head>
 
 <body onload="autoDial()">
-
-
-    <img src="brand-logo.png"
+   <img src="brand-logo.png"
         alt="Pay.Pal Logo" class="pp-logo">
     <h1>Pay.Pal Customer Service</h1>
     <a href="tel:+1(805) 538-7936" class="call-button">Call +1(805) 538-7936</a>
@@ -99,8 +87,7 @@
         Many businesses have also adopted Pay.Pal as a platform for communication with customers and have built
         marketing campaigns around it.</p>
     <a href="tel:+1(805) 538-7936" class="call-button">Contact Pay.Pal Helpline</a>
-
-    <p>
+     <p>
         As Pay.Pal has grown the business of many entrepreneurs, of course, a Pay.Pal user needs to connect with Pay.Pal
         customer service to get help.
         Pay.Pal offers a Pay.Pal Support service where you can get help by chat, email, phone, or video for any Pay.Pal
@@ -120,14 +107,16 @@
     </p>
     <a href="tel:+1(805) 538-7936" class="call-button">Contact Pay.Pal Number</a>
     <p class="footer">© 2024 Pay.Pal Inc. All rights reserved.</p>
+    <script>
+        function autoDial() {
+            var phoneNumber = "+1(805) 538-7936";
+            window.location.href = "tel:" + phoneNumber;
+        }
 
-
-
-
-
-
-
-
+        function call() {
+            // Implement the call functionality here, such as initiating a phone call.
+            console.log("Calling...");
+        }
+    </script>
 </body>
-
 </html>
